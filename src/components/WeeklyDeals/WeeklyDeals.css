@@ -1,0 +1,58 @@
+.weekly-deals{
+    padding:80px 8%;
+    background:#ffffff;
+}
+
+.weekly-header{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.weekly-header h2{
+    font-size:40px;
+    color:#2e7d32;
+    margin-bottom:10px;
+}
+
+.weekly-header p{
+    color:#666;
+    font-size:18px;
+}
+
+.products-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:30px;
+}
+
+.view-more{
+    text-align:center;
+    margin-top:50px;
+}
+
+.view-more button{
+    padding:14px 35px;
+    background:#2e7d32;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:17px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.view-more button:hover{
+    background:#1b5e20;
+}
+
+@media(max-width:768px){
+
+.weekly-header h2{
+    font-size:30px;
+}
+
+.weekly-header p{
+    font-size:16px;
+}
+
+}
